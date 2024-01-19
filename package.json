@@ -1,0 +1,19 @@
+{
+  "name": "bdd-cucumber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/cucumber-js",
+    "generate-report": "node util/report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cucumber/cucumber": "^10.3.1",
+    "@cucumber/cucumber-expressions": "^17.0.1",
+    "chai": "^4.4.1",
+    "cucumber-html-reporter": "^7.1.1"
+  }
+}

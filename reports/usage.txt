@@ -1,0 +1,21 @@
+┌────────────────────────────────────┬──────────┬─────────────────────────────────┐
+│ Pattern / Text                     │ Duration │ Location                        │
+├────────────────────────────────────┼──────────┼─────────────────────────────────┤
+│ the variable should contain {int}  │ 0.19ms   │ features/support/steps.js:12    │
+│   the variable should contain 2    │ 0.49ms   │ features/simple_math.feature:9  │
+│   the variable should contain 1333 │ 0.18ms   │ features/simple_math.feature:14 │
+│   the variable should contain 17   │ 0.05ms   │ features/simple_math.feature:14 │
+│   the variable should contain 105  │ 0.04ms   │ features/simple_math.feature:14 │
+├────────────────────────────────────┼──────────┼─────────────────────────────────┤
+│ a variable set to {int}            │ 0.11ms   │ features/support/steps.js:4     │
+│   a variable set to 1              │ 0.27ms   │ features/simple_math.feature:7  │
+│   a variable set to 12             │ 0.13ms   │ features/simple_math.feature:12 │
+│   a variable set to 100            │ 0.03ms   │ features/simple_math.feature:12 │
+│   a variable set to 99             │ 0.02ms   │ features/simple_math.feature:12 │
+├────────────────────────────────────┼──────────┼─────────────────────────────────┤
+│ I increment the variable by {int}  │ 0.08ms   │ features/support/steps.js:8     │
+│   I increment the variable by 1234 │ 0.13ms   │ features/simple_math.feature:13 │
+│   I increment the variable by 5    │ 0.12ms   │ features/simple_math.feature:13 │
+│   I increment the variable by 1    │ 0.05ms   │ features/simple_math.feature:8  │
+│   I increment the variable by 5    │ 0.03ms   │ features/simple_math.feature:13 │
+└────────────────────────────────────┴──────────┴─────────────────────────────────┘
